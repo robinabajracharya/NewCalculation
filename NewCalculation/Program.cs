@@ -19,6 +19,7 @@ namespace NewCalculation
             double difference = Sub(a, b);
             Console.WriteLine("difference={0}", difference);
 
+            
             Console.WriteLine("sum={0}", add);
             Console.WriteLine("division={0}", division);
             Console.WriteLine("product={0}", product);
@@ -36,6 +37,7 @@ namespace NewCalculation
         {
             return a / b;
         }
+
         static double Sub(double a, double b)
         {
             return a - b;
