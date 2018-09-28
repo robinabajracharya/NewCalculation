@@ -14,7 +14,9 @@ namespace NewCalculation
             double b = 5;
             double add = Add(a, b);
             double product = Multiply(a, b);
+            double division = Divide(a, b);
             Console.WriteLine("sum={0}", add);
+            Console.WriteLine("division={0}", division);
             Console.WriteLine("product={0}", product);
         }
 
@@ -26,6 +28,9 @@ namespace NewCalculation
         {
             return a * b;
         }
-
+        static double Divide(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
